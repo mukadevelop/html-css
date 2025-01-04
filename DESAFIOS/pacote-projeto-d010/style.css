@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf), format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* font-family: "Rubik", sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #84e1ad;
+    font-family: "Poppins", sans-serif; 
+}
+
+header {
+    background-image: linear-gradient(180deg, #3cd983, #185132 90%);
+    height: 220px;
+    color: #ffff;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    justify-content: ;
+}
+
+.header_h1 > h1 {
+    padding: 40px 40px 20px 40px;
+    font-size: 2.50em;
+    text-shadow:  2px 1px 4px rgba(0, 0, 0, 0.432);
+}
+
+.header_p > p {
+    font-size: 1.35em;
+    text-shadow:  2px 1px 4px rgba(0, 0, 0, 0.432);
+}
+
+.nav_header {
+    padding: 25px 40px 40px 0px;
+    margin-right: 1400px;
+    display: flex;
+    margin: 0px;
+}
+.nav_header > a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    padding: 10px; 
+}
+
+.nav_header > a:hover {
+    color: #84e1ad;
+    text-decoration: underline;
+}

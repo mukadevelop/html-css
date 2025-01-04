@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio</title>
+</head>
+<body>
+    <h1>TESTE DE IMAGENS RESPONSIVAS</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!-- E POR ULTIMO, ACRESCENTO ESSA LINHA COM A IMG "P"-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--DEPOIS ACRESCENTO ESSA LINHA COM A IMG "M"-->
+        <img src="imagens/foto-g.png" alt="IMG-G"> <!-- EU COMEÇO SEMPRE PELA A IMG GRNADE-->
+    </picture>
+    
+    <h1>TESTE DE ÁUDIO</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/Luna Misteriosa - Luna Cantina.mp3" type="audio/mpeg">
+        <source src="media/Luna Misteriosa - Luna Cantina.ogg" type="audio/ogg">
+        <source src="media/Luna Misteriosa - Luna Cantina.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="media/Luna Misteriosa - Luna Cantina.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
